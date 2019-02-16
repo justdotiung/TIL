@@ -2,6 +2,7 @@ package data.structure.algorithm.study;
 
 /**
  * 출처: youtube [알고리즘] 권오흠 교수님.
+ * x의n승값.
  * func(3 , 3) return 3 * func(3 , 2) 
  * func(3 , 2) return 3 * func(3 , 1)
  * func(3 , 1) return 3 * func(3 , 0)
