@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**
  * 출처: youtube [알고리즘] 권오흠 교수님.
+ * 문자열 반환.
  */
 public class Recursion8 {
 
