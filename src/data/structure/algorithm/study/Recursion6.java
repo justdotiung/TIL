@@ -2,6 +2,7 @@ package data.structure.algorithm.study;
 
 /**
  * 출처: youtube [알고리즘] 권오흠 교수님.
+ * fibonacci
  * fibonacci(4) = fibonacci(3) + fibonacci(2)
  * fibonacci(3) = fibonacci(2) + fibonacci(1)
  * fibonacci(2) = fibonacci(1) + fibonacci(0)
