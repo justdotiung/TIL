@@ -1,6 +1,7 @@
 package data.structure.algorithm.study;
 
 /**
+ * 출처: youtube [알고리즘] 권오흠 교수님.
  * Recursive Thinking 1-2
  */
 public class Recursion9 {
@@ -32,7 +33,7 @@ public class Recursion9 {
 			b +=","+a%2;
 		}return b;
 	}
-	//n==arr.length 조건.
+	//구현 조건: n==arr.length .
 	public static int sum(int n, int[] arr) {
 		if(n<=0)
 			return 0;

@@ -1,6 +1,7 @@
 package data.structure.algorithm.study;
 
 /**
+ * 출처: youtube [알고리즘] 권오흠 교수님.
  * func(4) return 4 * func(3) 
  * func(3) return 3 * func(2)
  * ...

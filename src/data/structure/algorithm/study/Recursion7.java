@@ -1,6 +1,7 @@
 package data.structure.algorithm.study;
 
 /**
+ * 출처: youtube [알고리즘] 권오흠 교수님.
  * func(12,40) = func(40 ,12)
  * func(40,12) = func(12, 6)
  * func(12, 6) = func( 6, 0)

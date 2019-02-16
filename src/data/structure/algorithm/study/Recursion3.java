@@ -1,6 +1,7 @@
 package data.structure.algorithm.study;
 
 /**
+ * 출처: youtube [알고리즘] 권오흠 교수님.
  * func(4) 반환값은 4 + func(3) 
  * func(3) 반환값 3 + func(2)
  * ...

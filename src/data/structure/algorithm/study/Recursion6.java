@@ -1,6 +1,7 @@
 package data.structure.algorithm.study;
 
 /**
+ * 출처: youtube [알고리즘] 권오흠 교수님.
  * fibonacci(4) = fibonacci(3) + fibonacci(2)
  * fibonacci(3) = fibonacci(2) + fibonacci(1)
  * fibonacci(2) = fibonacci(1) + fibonacci(0)
@@ -10,7 +11,7 @@ package data.structure.algorithm.study;
  */
 public class Recursion6 {
 	public static void main(String[] args) {
-		int n = 6; 
+		int n = 4; 
 			
 		int result = fibonacci(n);
 		System.out.println(result);
