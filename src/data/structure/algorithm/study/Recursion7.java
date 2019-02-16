@@ -1,6 +1,7 @@
 package data.structure.algorithm.study;
 
 /**
+ * 최대 공약수
  * 출처: youtube [알고리즘] 권오흠 교수님.
  * func(12,40) = func(40 ,12)
  * func(40,12) = func(12, 6)
