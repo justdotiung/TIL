@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="data.structure.java"/>
 	<classpathentry kind="src" path="designpatten"/>
+	<classpathentry kind="src" path="java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
