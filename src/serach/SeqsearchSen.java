@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class SeqsearchSen {
 //선형검색 보초법
 	static int seqseacrhSen(int[] a, int n, int key) {
-		int i = 0;
+		int i;
 		a[n] = key; //보초를 추가
+//		
+//		while(true) {
+//			if(a[i] == key)
+//				break;
+//			i++;
+//		}
+		for (i = 0; a[i] != key; i++)
+			;
 		
-		while(true) {
-			if(a[i] == key)
-				break;
-			i++;
-		}
 		return i == n ? -1 :i ; // 원래 배열값인지 보초값인지 판단.
 	}
 	
