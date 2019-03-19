@@ -66,6 +66,6 @@ public class ArrayEqual {
 		
 			a[i]=b[b.length-1-i];
 			
-		}
+		}//
 	}
 }
