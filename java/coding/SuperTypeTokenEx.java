@@ -65,7 +65,7 @@ public class SuperTypeTokenEx {
 			return true;
 		}
 
-	}
+	}//
 //SuperTypeToken 
 	public static void main(String[] args) throws NoSuchFieldException, SecurityException {
 		TypeReference<String> t = new TypeReference<String>() {
