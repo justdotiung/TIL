@@ -17,7 +17,7 @@ public class Client {
 		
 		atom.attak();
 		atom.move();
-		
+		  
 		
 	}
 }
