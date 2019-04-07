@@ -31,6 +31,7 @@ public class Recur {
 			if(s.isEmpty() != true) {
 				n =s.pop();
 				System.out.println(n);
+				
 				n=n-2;
 				continue;
 			}
