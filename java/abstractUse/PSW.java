@@ -6,5 +6,5 @@ public abstract class PSW {
 		printer.print();
 	}
 
-	protected abstract Printer newPrinter();
+	protected abstract Printer newPrinter(); //상속받는쪽에서 생성자를 만들어 구현하여 메소드 호출  
 }
