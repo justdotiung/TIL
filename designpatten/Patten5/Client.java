@@ -3,14 +3,15 @@ package Patten5;
 public class Client {
 	public static void main(String[] args) {
 		ScoreRecord record =new ScoreRecord();
-		DataSheetView dataSheetView = new DataSheetView(record, 3);
+		MinMaxView minMaxView = new MinMaxView(record);
 		
-		record.SetDataSheetView(dataSheetView);
+		record.setMinMaxView(minMaxView);
 		
-		for (int i = 0; i < 5; i++) {
+		for (int i = 1; i <= 5; i++) {
 			int sco = i * 10;
-			System.out.println("adding"+sco);			
+			System.out.println("adding "+sco);			
 			record.addScore(sco);
 		}
+//		System.out.println(record.getScoreRecord().get(4));
 	}
 }

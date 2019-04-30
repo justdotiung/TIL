@@ -5,14 +5,15 @@ import java.util.List;
 
 public class ScoreRecord {
 	private List<Integer> scores = new ArrayList<Integer>();
-	private DataSheetView dataSheetView;
+	private MinMaxView maxView;
 	
-	public void SetDataSheetView(DataSheetView dataSheetView) {
-		this.dataSheetView = dataSheetView;
+	public void setMinMaxView(MinMaxView maxView) { 
+		this.maxView = maxView;
 	}
+	
 	public void addScore(int score) {
 		scores.add(score);
-		dataSheetView.update();
+		maxView.update();
 	}
 	public List<Integer> getScoreRecord(){
 		return scores;
