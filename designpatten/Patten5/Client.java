@@ -7,9 +7,9 @@ public class Client {
 		DataSheetView dataSheetView5= new DataSheetView(record, 5);
 		MinMaxView minMaxView = new MinMaxView(record);
 		
-		record.addDataSheetView(dataSheetView3);
-		record.addDataSheetView(dataSheetView5);
-		record.setMinMaxView(minMaxView);
+		record.attach(dataSheetView3);
+		record.attach(dataSheetView5);
+		record.attach(minMaxView);
 		
 		for (int i = 1; i <= 5; i++) {
 			int sco = i * 10;
