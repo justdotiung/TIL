@@ -16,7 +16,6 @@ public class StatisticView implements Observer {
 	}
 
 	private void displayStatistic(List<Integer> list) {
-		int sum =0;
 		list.stream().mapToInt(i->i).average().ifPresent(avg -> System.out.println("Average found is " + avg));
 	}
 
